@@ -3,3 +3,4 @@ Bu Task https://www.w3schools.com/w3css/tryw3css_templates_architect.htm#project
 HTML strukturu semantik olaraq qurulmuşdur. Düzgün quruluş sayəsində CSS də az və oxunaqlı kod yazmaq mümkün olmuşdur. Eyni zamanda HTML və CSS kodlarının düzgün 
 strukturlu olması sayəsində responsivlikdə də kifayət qədər qısa və oxunur kodla dizayn edilmişdir. 
 Layihə kiçik və sadədir. Kodlarla tanış ola bilərsiniz.
+Layihəyə Netfily üzərindən bu link ilə baxa bilərsiniz: https://task-from-w3school-architects.netlify.app/
