@@ -1,0 +1,284 @@
+*{
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.hr{
+    color: #f0ecec;
+    opacity: 0.2;
+    margin-bottom: 45px;
+}
+
+
+/* =============HEADER */
+header{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.header-logo{
+    padding: 18px;
+}
+
+.header-logo b{
+    font-weight: bolder;
+}
+
+header a{
+    color: black;
+    text-decoration-line: none; 
+    letter-spacing: 4px;
+    font-weight: normal;
+    padding: 8px 16px;
+}
+
+header a:hover{
+    background-color: lightgray
+}
+
+.header-nav ul{
+    list-style-type: none;
+    display: flex;
+    padding-right: 15px;
+}
+
+/* ==========FIRST SECTION PICTURE */
+
+.architects-content{
+    padding: 0 10px;
+    position: relative;
+}
+
+.architects-content img{
+    max-width: 100%;
+    height: auto;
+}
+
+.architects-content h1{
+    position: absolute;
+    letter-spacing: 4px;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+    top: 45%;
+    left: 40%;
+}
+
+.architects-content-br{
+    background-color: black;
+    opacity: 0.75;
+    padding: 8px 16px;
+    font-weight: bolder;
+}
+
+/* ===================PROJECT CONTENT */
+
+.projects-contents,
+.contact-content{
+    padding: 36px 32px;
+}
+
+.header{
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+
+.projects-contents-gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projects-gallery-picture{
+    position: relative;
+    width: 23.90%;
+    margin-bottom: 16px;
+}
+
+.projects-gallery-picture img{
+    width: 100%;
+}
+
+.projects-gallery-picture p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+    margin-top: 0;
+}
+
+/* ====================ABOUT CONTENT */
+
+.about-content{
+    padding: 0 32px 36px;
+}
+
+.about-content-text{
+    margin-bottom: 46px;
+}
+
+.about-content-hr{
+    color: #f0ecec;
+    opacity: 0.2;
+    margin-bottom: 15px;
+}
+
+.about-content-users{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-content-user{
+    width: 23.97%;
+    margin-bottom: 16px;
+}
+
+.about-content-user h3{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.about-content-user img{
+    width: 100%;
+    filter: grayscale(80%);
+    height: 230px;
+}
+
+.p-opacity{
+    opacity: 0.6;
+}
+
+.about-content-user button{
+    border: none;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 8px 16px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/* =================CONTACT CONTENTS */
+
+input{
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.contact-content-hr{
+    color: #f0ecec;
+    opacity: 0.2;
+}
+
+.contact-content button{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 8px 16px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.contact-content button:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+
+/* ===============MAP CONTENT */
+
+.map-content{
+    padding: 0 32px;
+}
+
+.map-content img{
+    width: 100%;
+}
+
+/* ==================FOOTER */
+
+footer{
+    background-color: black;
+    padding: 16px 0;
+}
+
+footer h3{
+    color: white;
+    text-align: center;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: green;
+}
+
+
+@media only screen and (min-width: 993){
+
+    .projects-gallery-picture,
+    .about-content-user{
+        width: 24.99%;
+    }
+
+}
+
+@media  screen and (min-width: 601px) and (max-width: 992px){ 
+
+    .projects-gallery-picture,
+    .about-content-user{
+        width: 48.99%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header-nav{
+        display: none;
+    }
+
+    .architects-content-arch{
+        display: none;
+    }
+
+    .projects-gallery-picture,
+    .about-content-user{
+        width: 99.99%;
+    }
+        
+}
